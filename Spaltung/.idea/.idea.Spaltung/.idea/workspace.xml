@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="770ac039-a660-44c1-b0f1-171e2bb5761e" name="Default Changelist" comment="" />
@@ -16,17 +16,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueManagerUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/CouloirDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Tests/SinkTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Sink.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Teddy2LeRetour/Teddy2LeRetour/Assets/Scripts/Character.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Cup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/SwitchDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/Bouton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Door.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/ButtonFunctions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Frog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Iinteractable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Epee.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Tests/CloseUpSink.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/ChambreTiroir.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue System/DialogueSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Switch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Teddy2LeRetour/Teddy2LeRetour/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -46,12 +51,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogueManagerUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Switch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/ChambreTiroir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue System/DialogueSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/CouloirDoor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Door.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Door.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/ChambreTiroir.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Frog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Cup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Sink.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Epee.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/Bouton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/ButtonFunctions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Tests/CloseUpSink.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649056900426</updated>
       <workItem from="1649056903468" duration="18113000" />
+      <workItem from="1649079202919" duration="4966000" />
     </task>
     <servers />
   </component>
@@ -115,7 +129,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

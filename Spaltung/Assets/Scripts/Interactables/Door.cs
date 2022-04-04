@@ -24,11 +24,12 @@ public class Door : MonoBehaviour, Iinteractable
         {
             if (player.TakeItem(key))
             {
+                DialogueSystem.instance.Say("Porte dévérouillée.", "Porte");
                 _isOpen = true;
             }
             else
             {
-                Debug.Log("I need a key");
+                DialogueSystem.instance.Say("J'ai besoin d'une clef. Je crois que j'en ai gardé une dans ma commode.", "Alice");
             }
 
             return;

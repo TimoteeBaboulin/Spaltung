@@ -22,14 +22,20 @@ public class Frog : MonoBehaviour, Iinteractable
         if (player.TakeItem(key))
         {
             keyCount--;
-            if (keyCount==0)
+            if (keyCount == 0)
+            {
                 player.AddItem(itemGiven);
+                DialogueSystem.instance.Say("??? Il y a une clef dans sa bouche.", "Alice");
+            }
             else
-                Debug.Log("Still need " + keyCount + " " + key.name + "s.");
+                DialogueSystem.instance.Say("Voila ton enfant, petite grenouille, prends en soin cette fois.", "Alice");
         }
         else
         {
-            Debug.Log("I don't have the key.'");
+            if (keyCount==0)
+                DialogueSystem.instance.Say("Ou as tu trouve cette clef, petite grenouille?", "Alice");
+            else
+                DialogueSystem.instance.Say("Croak, Croak", "Grenouille");
         }
     }
     

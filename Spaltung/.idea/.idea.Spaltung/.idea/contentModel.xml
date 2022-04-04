@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\timotée.baboulin\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -13,18 +13,28 @@
           <e p="DialogueManagerUI.cs" t="Include" />
           <e p="Interactables" t="Include">
             <e p="ChambreTiroir.cs" t="Include" />
-            <e p="Character.cs" t="Include" />
-            <e p="CouloirDoor.cs" t="Include" />
+            <e p="Cup.cs" t="Include" />
             <e p="Door.cs" t="Include" />
+            <e p="Epee.cs" t="Include" />
             <e p="Frog.cs" t="Include" />
             <e p="Iinteractable.cs" t="Include" />
-            <e p="Switch.cs" t="Include" />
-            <e p="SwitchDoor.cs" t="Include" />
+            <e p="Sink.cs" t="Include" />
+            <e p="Tests" t="Include">
+              <e p="Character.cs" t="Include" />
+              <e p="CloseUpSink.cs" t="Include" />
+              <e p="SinkTest.cs" t="Include" />
+              <e p="Switch.cs" t="Include" />
+              <e p="SwitchDoor.cs" t="Include" />
+            </e>
           </e>
           <e p="InventoryUI.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="Level.cs" t="Include" />
           <e p="LevelManager.cs" t="Include" />
+          <e p="MenuPrincipal" t="Include">
+            <e p="Bouton.cs" t="Include" />
+            <e p="ButtonFunctions.cs" t="Include" />
+          </e>
           <e p="Player.cs" t="Include" />
         </e>
       </e>

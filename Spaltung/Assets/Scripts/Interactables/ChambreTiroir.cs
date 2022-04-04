@@ -22,6 +22,6 @@ public class ChambreTiroir : MonoBehaviour, Iinteractable
             alreadyUsed = true;
             DialogueSystem.instance.Say("J'ai trouvé une clef dans mon tiroir.", "Alice");
         }
-        else DialogueSystem.instance.Say("Il n'y a plus rien a trouver ici", "Alice");
+        else DialogueSystem.instance.Say("Il n'y a plus rien à trouver ici.", "Alice");
     }
 }
