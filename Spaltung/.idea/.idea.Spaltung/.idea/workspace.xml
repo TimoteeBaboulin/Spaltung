@@ -67,7 +67,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Tests/CloseUpSink.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/PanierDeFruit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Frog1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Squirrel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Sink1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/PaquetCereale.cs" />
@@ -82,7 +81,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Filtre.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Chambre/Bear.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Chambre/LampeCarotte.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Door.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Couloir/ChambreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Cuisine/Squirrel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salle De Bain/Frog.cs" />
@@ -90,6 +88,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Buanderie/PiegePanier.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Iinteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Buanderie/Piege.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Door.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +141,7 @@
       <updated>1649056900426</updated>
       <workItem from="1649056903468" duration="18113000" />
       <workItem from="1649079202919" duration="4991000" />
-      <workItem from="1649142099420" duration="12844000" />
+      <workItem from="1649142099420" duration="16567000" />
     </task>
     <servers />
   </component>

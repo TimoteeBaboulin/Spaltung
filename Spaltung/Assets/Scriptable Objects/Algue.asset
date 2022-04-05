@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 115ea068f91dd844099423cc336473a4, type: 3}
   m_Name: Algue
   m_EditorClassIdentifier: 
-  itemName: 
-  sprite: {fileID: 0}
+  itemName: Algue
+  sprite: {fileID: 21300000, guid: c2619c04b22ac394fb059ff0f99a4b1d, type: 3}

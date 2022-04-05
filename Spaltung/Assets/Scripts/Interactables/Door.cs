@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Door : MonoBehaviour, Iinteractable
 {
+    public int keyCount;
     public Item key;
     public GameObject autrePorte;
 
@@ -20,15 +21,16 @@ public class Door : MonoBehaviour, Iinteractable
 
     public void Interact(Player player)
     {
-        if (!_isOpen)
-        {
-            if (player.TakeItem(key))
-            {
-                DialogueSystem.instance.Say("Porte dévérouillée.", "Porte");
-                _isOpen = true;
-            }
-            else
-            {
+        if (!_isOpen) {
+            if (player.TakeItem(key)) {
+                keyCount--;
+                if (keyCount == 0) {
+                    DialogueSystem.instance.Say("Porte dévérouillée.", "Porte");
+                    _isOpen = true;
+                } else {
+                    DialogueSystem.instance.Say("Il me faut encore " + keyCount + " clefs.", "Alice");
+                }
+            } else {
                 DialogueSystem.instance.Say("J'ai besoin d'une clef. Je crois que j'en ai gardé une dans ma commode.", "Alice");
             }
 

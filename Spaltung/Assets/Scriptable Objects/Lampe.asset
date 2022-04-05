@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 115ea068f91dd844099423cc336473a4, type: 3}
   m_Name: Lampe
   m_EditorClassIdentifier: 
-  itemName: 
-  sprite: {fileID: 0}
+  itemName: Lampe
+  sprite: {fileID: 21300000, guid: e268d1a4ceec037419f9b9406ca3a0ff, type: 3}

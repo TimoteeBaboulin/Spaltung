@@ -14,6 +14,9 @@ public class Player : MonoBehaviour
     public bool pause = false;
     
     private NavMeshAgent _navMeshAgent;
+    private Animator Animator;
+    private SpriteRenderer SpriteRenderer;
+    
     public static Action OnInventoryUpdate;
 
     private Coroutine coroutine;
@@ -24,6 +27,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Animator = GetComponent<Animator>();
+        SpriteRenderer = GetComponent<SpriteRenderer>();
         current = this;
         _navMeshAgent = GetComponent<NavMeshAgent>();
         _navMeshAgent.updateUpAxis = false;
@@ -62,8 +67,10 @@ public class Player : MonoBehaviour
 
         }
         Rescale();
-        
-       
+
+        SpriteRenderer.flipX = (_navMeshAgent.velocity.x <= 0 && _navMeshAgent.remainingDistance > 0);
+        Animator.SetBool("Going Right", _navMeshAgent.velocity.x >= 0);
+        Animator.SetBool("Moving", _navMeshAgent.remainingDistance > 0);
     }
 
     void MoveTo(Vector3 destination)
