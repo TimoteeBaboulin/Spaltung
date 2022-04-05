@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public float depth;
 
     public bool pause = false;
+    private bool closeUp;
     
     private NavMeshAgent _navMeshAgent;
     private Animator Animator;
@@ -42,7 +43,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            if (!pause)
+            if (!pause && !closeUp)
             {
                 if (coroutine != null)
                     StopCoroutine(coroutine);
@@ -114,6 +115,22 @@ public class Player : MonoBehaviour
         inventory.Remove(item);
         Player.OnInventoryUpdate.Invoke();
         return true;
+    }
+
+    public void StartPause()
+    {
+        closeUp = true;
+    }
+
+    public IEnumerator StopPause()
+    {
+        yield return new WaitForEndOfFrame();
+        closeUp = false;
+    }
+
+    public void StopPauseButton()
+    {
+        StartCoroutine(StopPause());
     }
 }
 

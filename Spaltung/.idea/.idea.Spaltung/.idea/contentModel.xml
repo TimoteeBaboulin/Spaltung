@@ -13,6 +13,7 @@
           <e p="DialogueManagerUI.cs" t="Include" />
           <e p="Interactables" t="Include">
             <e p="Buanderie" t="Include">
+              <e p="Algue.cs" t="Include" />
               <e p="Corde.cs" t="Include" />
               <e p="Panier.cs" t="Include" />
               <e p="Piege.cs" t="Include" />
@@ -43,9 +44,15 @@
             <e p="Iinteractable.cs" t="Include" />
             <e p="Salle De Bain" t="Include">
               <e p="Baignoire.cs" t="Include" />
+              <e p="CupUI.cs" t="Include" />
               <e p="Frog.cs" t="Include" />
               <e p="Sink.cs" t="Include" />
+              <e p="SinkCloseUp.cs" t="Include" />
+              <e p="TetardUI.cs" t="Include" />
               <e p="Toilettes.cs" t="Include" />
+            </e>
+            <e p="Salon" t="Include">
+              <e p="SalonDoor.cs" t="Include" />
             </e>
             <e p="Tests" t="Include">
               <e p="Character.cs" t="Include" />

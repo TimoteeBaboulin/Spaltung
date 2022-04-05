@@ -8,6 +8,7 @@ public class Door : MonoBehaviour, Iinteractable
     public int keyCount;
     public Item key;
     public GameObject autrePorte;
+    public string lockedText;
 
     public bool _isOpen;
     private Level nextLevel;
@@ -31,7 +32,7 @@ public class Door : MonoBehaviour, Iinteractable
                     DialogueSystem.instance.Say("Il me faut encore " + keyCount + " clefs.", "Alice");
                 }
             } else {
-                DialogueSystem.instance.Say("J'ai besoin d'une clef. Je crois que j'en ai gardé une dans ma commode.", "Alice");
+                DialogueSystem.instance.Say(lockedText, "Alice");
             }
 
             return;
