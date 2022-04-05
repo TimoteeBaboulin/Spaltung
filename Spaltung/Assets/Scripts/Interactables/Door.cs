@@ -37,5 +37,10 @@ public class Door : MonoBehaviour, Iinteractable
 
         LevelManager.levelManager.ChangeLevel(nextLevel.name, autrePorte.transform.position);
     }
+
+    public void UpdateDoor()
+    {
+        nextLevel = autrePorte.GetComponentInParent<Level>(true);
+    }
     
 }

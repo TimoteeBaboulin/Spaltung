@@ -14,23 +14,25 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Teddy2LeRetour/Teddy2LeRetour/Assets/Scripts/IInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Salle De Bain/Frog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueManagerUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Tests/SinkTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Sink.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Teddy2LeRetour/Teddy2LeRetour/Assets/Scripts/Character.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Cup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/Bouton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Door.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/ButtonFunctions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Frog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Iinteractable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Epee.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Couloir/ChambreManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Buanderie/Piege.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Chambre/LampeCarotte.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/StencilMaterial.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Chambre/Bear.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/ButtonFunctions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Cuisine/Squirrel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Tests/CloseUpSink.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/ChambreTiroir.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue System/DialogueSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Teddy2LeRetour/Teddy2LeRetour/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -54,8 +56,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue System/DialogueSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/CouloirDoor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Door.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/ChambreTiroir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Frog.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Cup.cs" />
@@ -65,6 +65,31 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/SceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/ButtonFunctions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Tests/CloseUpSink.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/PanierDeFruit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Frog1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Squirrel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Sink1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/PaquetCereale.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Epee1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Corde.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Panier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Corde1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Gland.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Chaise.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Baignoire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Toilettes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Filtre.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Chambre/Bear.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Chambre/LampeCarotte.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Door.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Couloir/ChambreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Cuisine/Squirrel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salle De Bain/Frog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Buanderie/PiegeLampe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Buanderie/PiegePanier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Iinteractable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Buanderie/Piege.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +140,8 @@
       <option name="presentableId" value="Default" />
       <updated>1649056900426</updated>
       <workItem from="1649056903468" duration="18113000" />
-      <workItem from="1649079202919" duration="4966000" />
+      <workItem from="1649079202919" duration="4991000" />
+      <workItem from="1649142099420" duration="12844000" />
     </task>
     <servers />
   </component>

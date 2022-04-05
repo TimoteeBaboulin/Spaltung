@@ -5,7 +5,7 @@ using UnityEngine;
 
 public interface Iinteractable
 {
-    Vector3 position { get; }
+    Vector3 position { get; set; }
     void Interact(Player player);
 }
 

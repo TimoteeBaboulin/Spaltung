@@ -12,13 +12,41 @@
           </e>
           <e p="DialogueManagerUI.cs" t="Include" />
           <e p="Interactables" t="Include">
-            <e p="ChambreTiroir.cs" t="Include" />
-            <e p="Cup.cs" t="Include" />
+            <e p="Buanderie" t="Include">
+              <e p="Corde.cs" t="Include" />
+              <e p="Panier.cs" t="Include" />
+              <e p="Piege.cs" t="Include" />
+              <e p="Scraped" t="Include">
+                <e p="PiegeLampe.cs" t="Include" />
+                <e p="PiegePanier.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Chambre" t="Include">
+              <e p="Bear.cs" t="Include" />
+              <e p="ChambreTiroir.cs" t="Include" />
+              <e p="Cup.cs" t="Include" />
+              <e p="Epee.cs" t="Include" />
+              <e p="LampeCarotte.cs" t="Include" />
+            </e>
+            <e p="Couloir" t="Include">
+              <e p="ChambreManager.cs" t="Include" />
+            </e>
+            <e p="Cuisine" t="Include">
+              <e p="Chaise.cs" t="Include" />
+              <e p="Filtre.cs" t="Include" />
+              <e p="Gland.cs" t="Include" />
+              <e p="PanierDeFruit.cs" t="Include" />
+              <e p="PaquetCereale.cs" t="Include" />
+              <e p="Squirrel.cs" t="Include" />
+            </e>
             <e p="Door.cs" t="Include" />
-            <e p="Epee.cs" t="Include" />
-            <e p="Frog.cs" t="Include" />
             <e p="Iinteractable.cs" t="Include" />
-            <e p="Sink.cs" t="Include" />
+            <e p="Salle De Bain" t="Include">
+              <e p="Baignoire.cs" t="Include" />
+              <e p="Frog.cs" t="Include" />
+              <e p="Sink.cs" t="Include" />
+              <e p="Toilettes.cs" t="Include" />
+            </e>
             <e p="Tests" t="Include">
               <e p="Character.cs" t="Include" />
               <e p="CloseUpSink.cs" t="Include" />

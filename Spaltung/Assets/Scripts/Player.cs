@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     private NavMeshAgent _navMeshAgent;
     public static Action OnInventoryUpdate;
 
+    private Coroutine coroutine;
+
     [SerializeField]
     public List<Item> inventory;
     
@@ -37,6 +39,8 @@ public class Player : MonoBehaviour
         {
             if (!pause)
             {
+                if (coroutine != null)
+                    StopCoroutine(coroutine);
                 DialogueSystem.instance.StopSpeaking();
 
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -47,7 +51,7 @@ public class Player : MonoBehaviour
 
                 if (interactable != null)
                 {
-                    StartCoroutine(InteractWith(interactable));
+                    coroutine = StartCoroutine(InteractWith(interactable));
                 }
                 else
                 {
