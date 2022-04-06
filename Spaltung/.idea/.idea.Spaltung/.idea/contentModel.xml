@@ -66,6 +66,7 @@
               <e p="SalonDoor.cs" t="Include" />
               <e p="Sortie.cs" t="Include" />
               <e p="Tele.cs" t="Include" />
+              <e p="Timer.cs" t="Include" />
             </e>
             <e p="Tests" t="Include">
               <e p="Character.cs" t="Include" />

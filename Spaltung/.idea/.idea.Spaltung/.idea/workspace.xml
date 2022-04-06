@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Salle De Bain/Frog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Salle De Bain/Baignoire.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Salon/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueManagerUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Salon/Livre.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Frog.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Cup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Sink.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Epee.cs" />
@@ -110,6 +110,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/ButtonFunctions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salon/Tele.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salon/Timer.cs" />
       </list>
     </option>
   </component>
@@ -162,7 +163,7 @@
       <workItem from="1649056903468" duration="18113000" />
       <workItem from="1649079202919" duration="4991000" />
       <workItem from="1649142099420" duration="20752000" />
-      <workItem from="1649229241715" duration="20934000" />
+      <workItem from="1649229241715" duration="21619000" />
     </task>
     <servers />
   </component>
