@@ -48,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/ButtonFunctions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Cuisine/Squirrel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Salon/Sortie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Salon/Tele.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Tests/CloseUpSink.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactables/Cuisine/FruitsUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue System/DialogueSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,14 +59,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/ChambreTiroir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Frog.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Cup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Sink.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Epee.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/Bouton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/SceneManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/ButtonFunctions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Tests/CloseUpSink.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/PanierDeFruit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Frog1.cs" />
@@ -94,7 +93,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Door.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salle De Bain/Sink1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salle De Bain/SinkCloseUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salle De Bain/CupUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salle De Bain/TetardUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salle De Bain/BaignoireCloseUp.cs" />
@@ -109,6 +107,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salon/CadenasUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salon/Sortie.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salon/Livre.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuPrincipal/ButtonFunctions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/Salon/Tele.cs" />
       </list>
     </option>
   </component>
@@ -161,7 +162,7 @@
       <workItem from="1649056903468" duration="18113000" />
       <workItem from="1649079202919" duration="4991000" />
       <workItem from="1649142099420" duration="20752000" />
-      <workItem from="1649229241715" duration="16934000" />
+      <workItem from="1649229241715" duration="20934000" />
     </task>
     <servers />
   </component>

@@ -85,7 +85,7 @@ public class Player : MonoBehaviour
 
     void Rescale()
     {
-        float size = 0.75f - transform.position.y * 0.1f * depth;
+        float size = 0.65f - transform.position.y * 0.1f * depth;
         transform.localScale = new Vector3(size, size, 0);
         if (transform.position.y >= -2)
             SpriteRenderer.sortingLayerID = SortingLayer.NameToID("Player");
