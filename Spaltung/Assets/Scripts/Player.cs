@@ -87,6 +87,11 @@ public class Player : MonoBehaviour
     {
         float size = 0.75f - transform.position.y * 0.1f * depth;
         transform.localScale = new Vector3(size, size, 0);
+        if (transform.position.y >= -2)
+            SpriteRenderer.sortingLayerID = SortingLayer.NameToID("Player");
+        else
+            SpriteRenderer.sortingLayerID = SortingLayer.NameToID("Player Close");
+
     }
 
     IEnumerator InteractWith(Iinteractable interactable)

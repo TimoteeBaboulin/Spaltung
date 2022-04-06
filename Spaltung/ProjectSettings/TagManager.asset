@@ -48,6 +48,12 @@ TagManager:
   - name: Player
     uniqueID: 2328800277
     locked: 0
+  - name: Middle Ground
+    uniqueID: 3297471339
+    locked: 0
+  - name: Player Close
+    uniqueID: 2187723257
+    locked: 0
   - name: Foreground
     uniqueID: 15907811
     locked: 0

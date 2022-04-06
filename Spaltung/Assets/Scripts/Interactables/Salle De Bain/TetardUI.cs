@@ -28,4 +28,5 @@ public class TetardUI : MonoBehaviour
             DialogueSystem.instance.Say("Le tetard va trop vite.", "Alice");
         }
     }
+    
 }

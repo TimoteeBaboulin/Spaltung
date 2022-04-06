@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Scene = UnityEditor.SearchService.Scene;
+//using Scene = UnityEditor.SearchService.Scene;
 
 public class ButtonFunctions : MonoBehaviour
 {
