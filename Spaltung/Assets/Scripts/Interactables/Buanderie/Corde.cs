@@ -15,7 +15,7 @@ public class Corde : MonoBehaviour, Iinteractable
 
     public void Interact(Player player)
     {
-        DialogueSystem.instance.Say("La corde à linge.", "Alice");
+        DialogueSystem.Instance.Say("La corde à linge.", "Alice");
         player.AddItem(item);
         Destroy(gameObject);
     }

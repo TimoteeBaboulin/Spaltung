@@ -5,6 +5,7 @@ using UnityEngine;
 public class Tele : MonoBehaviour, Iinteractable
 {
     public GameObject televisionUI;
+    public Item key;
     public Vector3 position { get; set; }
 
     private void Awake()
@@ -14,7 +15,12 @@ public class Tele : MonoBehaviour, Iinteractable
 
     public void Interact(Player player)
     {
-        player.StartPause();
-        televisionUI.SetActive(true);
+        if (player.TakeItem(key))
+        {
+            player.StartPause();
+            televisionUI.SetActive(true);
+            return;
+        }
+        DialogueSystem.Instance.Say("La télé est éteinte.");
     }
 }

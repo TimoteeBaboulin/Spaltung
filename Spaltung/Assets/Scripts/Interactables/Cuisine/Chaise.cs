@@ -8,10 +8,14 @@ public class Chaise : MonoBehaviour, Iinteractable
     private bool state;
     public GameObject unlockGO;
     private Gland unlock;
+
+    public GameObject cerealeGO;
+    private PaquetCereale cereale;
     
     private void Awake()
     {
         unlock = unlockGO.GetComponent<Gland>();
+        cereale = cerealeGO.GetComponent<PaquetCereale>();
         position = transform.position;
         state = false;
     }
@@ -27,12 +31,13 @@ public class Chaise : MonoBehaviour, Iinteractable
     {
         if (!state) {
             state = true;
-            DialogueSystem.instance.Say("Cette chaise est lourde a pousser.", "Alice");
-            transform.localPosition = new Vector3(2,0.1f, 1.6f);
+            DialogueSystem.Instance.Say("Cette chaise est lourde a pousser.", "Alice");
+            transform.localPosition = new Vector3(2,0.1f, 1.4f);
             unlock.state = true;
+            cereale.chaise = true;
             position = transform.position;
             return;
         }
-        DialogueSystem.instance.Say("Maintenant je peut atteindre en hauteur.", "Alice");
+        DialogueSystem.Instance.Say("Maintenant je peut atteindre en hauteur.", "Alice");
     }
 }

@@ -9,6 +9,7 @@ public class Piege : MonoBehaviour, Iinteractable
     public List<Sprite> sprites;
 
     public Item item;
+    public GameObject bunny;
     
     private bool alreadyTaken;
 
@@ -26,6 +27,7 @@ public class Piege : MonoBehaviour, Iinteractable
         if (keys.Count > 0) {
             if (player.TakeItem(keys[0])) {
                 sprite.sprite = sprites[0];
+                sprite.color = Color.white;
                 sprites.Remove(sprites[0]);
                 
                 keys.Remove(keys[0]);
@@ -37,6 +39,11 @@ public class Piege : MonoBehaviour, Iinteractable
                         newList.Add(item);
                 }
                 keys = newList;
+
+                if (keys.Count == 0) {
+                    bunny.SetActive(false);
+                    return;
+                }
                 
                 List<Sprite> newSpriteList = new List<Sprite>();
                 foreach (var item in sprites)
@@ -45,17 +52,16 @@ public class Piege : MonoBehaviour, Iinteractable
                         newSpriteList.Add(item);
                 }
                 sprites = newSpriteList;
-                
-                DialogueSystem.instance.Say("Prout");
             } else {
-                DialogueSystem.instance.Say("Je devrais trouver comment attirer le lapin.", "Alice");
+                DialogueSystem.Instance.Say("Je devrais trouver comment attirer le lapin.", "Alice");
             }
         } else {
             if (alreadyTaken) {
-                DialogueSystem.instance.Say("Désolé, pauvre lapinou.", "Alice");
+                DialogueSystem.Instance.Say("Désolé, pauvre lapinou.", "Alice");
             } else {
-              DialogueSystem.instance.Say("Désolé, mais il me fallait cette clef.", "Alice");
+              DialogueSystem.Instance.Say("Désolé, mais il me fallait cette clef.", "Alice");
               player.AddItem(item);
+              alreadyTaken = true;
             }
         }
     }

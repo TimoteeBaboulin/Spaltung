@@ -51,7 +51,7 @@ public class LevelManager : MonoBehaviour
                 
                 NavMeshHit hit;
                 NavMesh.SamplePosition(position, out hit, 20, -1);
-                Player.current.GetComponent<NavMeshAgent>().Warp(hit.position);
+                Player.Instance.GetComponent<NavMeshAgent>().Warp(hit.position);
 
                 return true;
             }

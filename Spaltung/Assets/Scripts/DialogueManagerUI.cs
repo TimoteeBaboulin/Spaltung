@@ -25,7 +25,7 @@ public class DialogueManagerUI : MonoBehaviour
 
     public IEnumerator Say(string name, string dialogue)
     {
-        Player.current.pause = true;
+        Player.Instance.pause = true;
         if (!textMaster.activeSelf) textMaster.SetActive(true);
         nameText.text = name;
         dialogueText.text = dialogue;
@@ -36,6 +36,6 @@ public class DialogueManagerUI : MonoBehaviour
             yield return null;
 
         textMaster.SetActive(false);
-        Player.current.pause = false;
+        Player.Instance.pause = false;
     }
 }

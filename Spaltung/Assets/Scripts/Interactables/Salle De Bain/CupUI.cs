@@ -20,7 +20,7 @@ public class CupUI : MonoBehaviour
     public void ButtonClick()
     {
         Debug.Log("Click Detecte");
-        if (Player.current.TakeItem(key))
+        if (Player.Instance.TakeItem(key))
         {
             cup = true;
             GetComponentInChildren<TetardUI>().CupSet();

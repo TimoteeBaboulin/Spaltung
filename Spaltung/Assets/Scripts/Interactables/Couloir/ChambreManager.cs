@@ -22,7 +22,7 @@ public class ChambreManager : MonoBehaviour
             return;
         porte.GetComponent<Door>().autrePorte = chambre2;
         porte.GetComponent<Door>().UpdateDoor();
-        DialogueSystem.instance.Say("Il y a du bruit venant de ma chambre.", "Alice");
+        DialogueSystem.Instance.Say("Il y a du bruit venant de ma chambre.", "Alice");
         Destroy(gameObject);
     }
 }

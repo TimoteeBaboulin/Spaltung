@@ -16,7 +16,7 @@ public class Algue : MonoBehaviour, Iinteractable
     public void Interact(Player player)
     {
         player.AddItem(item);
-        DialogueSystem.instance.Say("Ugh, je déteste avoir la main mouillée.", "Alice");
+        DialogueSystem.Instance.Say("Ugh, je déteste avoir la main mouillée.", "Alice");
         Destroy(gameObject);
     }
 }

@@ -14,7 +14,7 @@ public class Panier : MonoBehaviour, Iinteractable
     public Vector3 position { get; set; }
     public void Interact(Player player)
     {
-        DialogueSystem.instance.Say("Le panier à linge.", "Alice");
+        DialogueSystem.Instance.Say("Le panier à linge.", "Alice");
         player.AddItem(item);
         Destroy(gameObject);
     }

@@ -20,4 +20,9 @@ public class ButtonFunctions : MonoBehaviour
         PlayerPrefs.Save();
         Audio.SetFloat("Volume",PlayerPrefs.GetFloat("Volume") - 2);
     }
+
+    public void QuitApp()
+    {
+        Application.Quit();
+    }
 }

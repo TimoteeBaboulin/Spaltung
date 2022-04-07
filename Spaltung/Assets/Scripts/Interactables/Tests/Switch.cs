@@ -15,7 +15,7 @@ public class Switch : MonoBehaviour, Iinteractable
     {
         state = !state;
         door.ChangeState();
-        DialogueSystem.instance.Say("Hi");
+        DialogueSystem.Instance.Say("Hi");
     }
 
     // Start is called before the first frame update

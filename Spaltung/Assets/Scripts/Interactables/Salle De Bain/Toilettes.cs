@@ -21,17 +21,17 @@ public class Toilettes : MonoBehaviour, Iinteractable
     {
         if (!isOpen) {
             if (player.TakeItem(key)) {
-                DialogueSystem.instance.Say("Voila, un tétard sans toucher les saletés.", "Alice");
+                DialogueSystem.Instance.Say("Voila, un tétard sans toucher les saletés.", "Alice");
                 player.AddItem(itemGiven);
                 isOpen = true;
             }
             else {
-                DialogueSystem.instance.Say(
+                DialogueSystem.Instance.Say(
                     "Il y a un tétard dans les toilettes... \nJe refuse de mettre la main la dedans.", "Alice");
             }
         }
         else {
-            DialogueSystem.instance.Say("Pauvre tétard.", "Alice");
+            DialogueSystem.Instance.Say("Pauvre tétard.", "Alice");
         }
     }
 }

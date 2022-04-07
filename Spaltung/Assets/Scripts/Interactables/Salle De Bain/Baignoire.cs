@@ -24,22 +24,22 @@ public class Baignoire : MonoBehaviour, Iinteractable
     {
         if (!isOpen) {
             if (player.TakeItem(key)) {
-                DialogueSystem.instance.Say("Il a l'air d'aimer les algues, il s'est calmé directement.", "Alice");
+                DialogueSystem.Instance.Say("Il a l'air d'aimer les algues, il s'est calmé directement.", "Alice");
                 isOpen = true;
             }
             else {
-                DialogueSystem.instance.Say(
+                DialogueSystem.Instance.Say(
                     "Il y a un tetard dans la baignoire, mais il s'enfuit quand j'essaies de l'attraper", "Alice");
             }
         }
         else {
             if (alreadyUsed) {
-                DialogueSystem.instance.Say("L'algue est toujours là.", "Alice");
+                DialogueSystem.Instance.Say("L'algue est toujours là.", "Alice");
             }
             else {
                 player.AddItem(itemGiven);
                 alreadyUsed = true;
-                DialogueSystem.instance.Say("Hop-la, tu ne m'échapperas pas.", "Alice");
+                DialogueSystem.Instance.Say("Hop-la, tu ne m'échapperas pas.", "Alice");
             }
         }
     }

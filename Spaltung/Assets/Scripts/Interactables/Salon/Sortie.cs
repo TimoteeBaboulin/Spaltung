@@ -8,6 +8,7 @@ public class Sortie : MonoBehaviour, Iinteractable
     public Vector3 position { get; set; }
     public GameObject cadenas;
     public bool open;
+    public GameObject winUI;
 
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class Sortie : MonoBehaviour, Iinteractable
             cadenas.SetActive(true);
             return;
         }
-        DialogueSystem.instance.Say("Bien joué frere.", "Gilles");
+        player.StartPause();
+        winUI.SetActive(true);
     }
 }

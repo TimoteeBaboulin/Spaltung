@@ -24,22 +24,22 @@ public class Sink : MonoBehaviour, Iinteractable
     {
         if (!isOpen) {
             if (player.TakeItem(key)) {
-                DialogueSystem.instance.Say("Le gobelet rentre dans le siphon, ca devrait etre simple d'attraper le tétard maintenant.", "Alice");
+                DialogueSystem.Instance.Say("Le gobelet rentre dans le siphon, ca devrait etre simple d'attraper le tétard maintenant.", "Alice");
                 isOpen = true;
             }
             else {
-                DialogueSystem.instance.Say(
+                DialogueSystem.Instance.Say(
                     "Un tetard est en train de se faire aspirer par le lavabo. \nIl va trop vite pour moi...", "Alice");
             }
         }
         else {
             if (alreadyUsed) {
-                DialogueSystem.instance.Say("Pauvre tétard.", "Alice");
+                DialogueSystem.Instance.Say("Pauvre tétard.", "Alice");
             }
             else {
                 player.AddItem(itemGiven);
                 alreadyUsed = true;
-                DialogueSystem.instance.Say("Je vais te ramener a ta maman.", "Alice");
+                DialogueSystem.Instance.Say("Je vais te ramener a ta maman.", "Alice");
             }
         }
     }

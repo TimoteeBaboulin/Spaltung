@@ -21,10 +21,10 @@ public class PiegeLampe : MonoBehaviour, Iinteractable
             SpriteRenderer.sprite = key.sprite;
             SpriteRenderer.color = Color.white;
             transform.localPosition = new Vector3(transform.localPosition.x, 0.01f, transform.localPosition.z);
-            DialogueSystem.instance.Say("La lampe pour le piège.", "Alice");
+            DialogueSystem.Instance.Say("La lampe pour le piège.", "Alice");
         }
         else {
-            DialogueSystem.instance.Say("Ca semble etre un bon endroit pour le piege.", "Alice");
+            DialogueSystem.Instance.Say("Ca semble etre un bon endroit pour le piege.", "Alice");
         }
     }
 }

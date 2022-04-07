@@ -16,7 +16,7 @@ public class GlandUI : MonoBehaviour
     public void AttemptTake()
     {
         if (libre) {
-            Player.current.AddItem(item);
+            Player.Instance.AddItem(item);
             Destroy(gameObject);
             return;
         }

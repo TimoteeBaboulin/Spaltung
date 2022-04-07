@@ -7,7 +7,8 @@ public class CadenasUI : MonoBehaviour
 {
     public List<int> code;
     public GameObject sortie;
-    
+    public GameObject winUI;
+
     [SerializeField]
     private List<DigitUI> Digits;
 
@@ -28,7 +29,7 @@ public class CadenasUI : MonoBehaviour
                 return;
             }
         }
-
-        sortie.GetComponent<Sortie>().open = true;
+        winUI.SetActive(true);
+        Player.Instance.StartPause();
     }
 }

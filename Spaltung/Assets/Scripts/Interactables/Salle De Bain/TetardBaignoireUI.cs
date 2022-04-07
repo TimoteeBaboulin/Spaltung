@@ -16,13 +16,16 @@ public class TetardBaignoireUI : MonoBehaviour
 
     public bool algue;
     public Item item;
+    private float timer;
 
     private void Awake()
     {
-        RectTransform = GetComponent<RectTransform>();
+        timer = 1;
+        RectTransform = transform.parent.GetComponent<RectTransform>();
         Disappearing = false;
         StartingCoordinates = RectTransform.anchoredPosition;
         algue = false;
+        transform.parent.GetComponent<Animator>().SetBool("Disappearing" , Disappearing);
     }
 
     private void OnEnable()
@@ -30,19 +33,16 @@ public class TetardBaignoireUI : MonoBehaviour
         RectTransform.anchoredPosition = StartingCoordinates;
         GetComponent<Image>().enabled = true;
         Disappearing = false;
+        timer = 1;
+        transform.parent.GetComponent<Animator>().SetBool("Disappearing" , Disappearing);
     }
 
     private void Update()
     {
-        if (Disappearing && Vector3.Distance(StartingCoordinates, RectTransform.anchoredPosition) < 250)
-        {
-            Quaternion newRotation = Quaternion.Euler(0,0,45);
-            RectTransform.Translate(newRotation * RectTransform.right * Time.deltaTime * 150);
-        }
-
-        if (Vector3.Distance(StartingCoordinates, RectTransform.anchoredPosition) >= 250)
-        {
-            GetComponent<Image>().enabled = false;
+        if (Disappearing) {
+            timer -= Time.deltaTime;
+            if (timer <= 0)
+                GetComponent<Image>().enabled = false;
         }
     }
 
@@ -51,14 +51,14 @@ public class TetardBaignoireUI : MonoBehaviour
         if (!algue) {
             if (!Disappearing) {
                 Disappearing = true;
-                Rotation = Quaternion.Euler(new Vector3(0,0,Random.Range(0,359)));
-                RectTransform.localRotation = Rotation;
-                return;
+                timer = 1;
+                transform.parent.GetComponent<Animator>().SetBool("Disappearing" , Disappearing);
+                
             }
 
             return;
         }
-        Player.current.AddItem(item);
+        Player.Instance.AddItem(item);
         Destroy(gameObject);
         
     }

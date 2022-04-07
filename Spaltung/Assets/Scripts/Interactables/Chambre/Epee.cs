@@ -15,7 +15,7 @@ public class Epee : MonoBehaviour, Iinteractable
 
     public void Interact(Player player)
     {
-        DialogueSystem.instance.Say("Ma vieille épée. Je ne me souviens plus du nombre de fois ou je me suis fait mal en courant avec.", "Alice");
+        DialogueSystem.Instance.Say("Ma vieille épée. Je ne me souviens plus du nombre de fois ou je me suis fait mal en courant avec.", "Alice");
         player.AddItem(item);
         Destroy(gameObject);
     }

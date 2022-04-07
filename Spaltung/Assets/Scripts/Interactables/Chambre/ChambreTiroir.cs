@@ -18,10 +18,10 @@ public class ChambreTiroir : MonoBehaviour, Iinteractable
     {
         if (!alreadyUsed)
         {
-            Player.current.AddItem(item);
+            Player.Instance.AddItem(item);
             alreadyUsed = true;
-            DialogueSystem.instance.Say("J'ai trouvé une clef dans mon tiroir.", "Alice");
+            DialogueSystem.Instance.Say("J'ai trouvé une clef dans mon tiroir.", "Alice");
         }
-        else DialogueSystem.instance.Say("Il n'y a plus rien à trouver ici.", "Alice");
+        else DialogueSystem.Instance.Say("Il n'y a plus rien à trouver ici.", "Alice");
     }
 }

@@ -4,10 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Player : MonoBehaviour
+public class Player : Singleton<Player>
 {
-    public static Player current;
-    
+
     public float speed;
     public float depth;
 
@@ -30,7 +29,6 @@ public class Player : MonoBehaviour
     {
         Animator = GetComponent<Animator>();
         SpriteRenderer = GetComponent<SpriteRenderer>();
-        current = this;
         _navMeshAgent = GetComponent<NavMeshAgent>();
         _navMeshAgent.updateUpAxis = false;
         _navMeshAgent.updateRotation = false;
@@ -47,7 +45,7 @@ public class Player : MonoBehaviour
             {
                 if (coroutine != null)
                     StopCoroutine(coroutine);
-                DialogueSystem.instance.StopSpeaking();
+                DialogueSystem.Instance.StopSpeaking();
 
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit2D hit;
@@ -64,7 +62,7 @@ public class Player : MonoBehaviour
                     MoveTo(hit.point);
                 }
             }
-            else DialogueSystem.instance.StopSpeaking();
+            else DialogueSystem.Instance.StopSpeaking();
 
         }
         Rescale();

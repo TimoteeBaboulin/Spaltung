@@ -21,11 +21,11 @@ public class TetardUI : MonoBehaviour
     public void AttemptCatch()
     {
         if (cup) {
-            Player.current.AddItem(item);
-            DialogueSystem.instance.Say("Je vais te ramener a ta maman.", "Alice");
+            Player.Instance.AddItem(item);
+            DialogueSystem.Instance.Say("Je vais te ramener a ta maman.", "Alice");
             Destroy(gameObject);
         } else {
-            DialogueSystem.instance.Say("Le tetard va trop vite.", "Alice");
+            DialogueSystem.Instance.Say("Le tetard va trop vite.", "Alice");
         }
     }
     

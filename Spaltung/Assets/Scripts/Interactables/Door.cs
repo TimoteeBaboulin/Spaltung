@@ -26,13 +26,13 @@ public class Door : MonoBehaviour, Iinteractable
             if (player.TakeItem(key)) {
                 keyCount--;
                 if (keyCount == 0) {
-                    DialogueSystem.instance.Say("Porte dévérouillée.", "Porte");
+                    DialogueSystem.Instance.Say("Porte dévérouillée.", "Porte");
                     _isOpen = true;
                 } else {
-                    DialogueSystem.instance.Say("Il me faut encore " + keyCount + " clefs.", "Alice");
+                    DialogueSystem.Instance.Say("Il me faut encore " + keyCount + " clefs.", "Alice");
                 }
             } else {
-                DialogueSystem.instance.Say(lockedText, "Alice");
+                DialogueSystem.Instance.Say(lockedText, "Alice");
             }
 
             return;

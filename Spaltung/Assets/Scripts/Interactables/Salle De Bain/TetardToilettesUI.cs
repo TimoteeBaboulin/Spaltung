@@ -9,11 +9,11 @@ public class TetardToilettesUI : MonoBehaviour
     
     public void AttemptCatch()
     {
-        if (Player.current.TakeItem(key)) {
-            Player.current.AddItem(item);
+        if (Player.Instance.TakeItem(key)) {
+            Player.Instance.AddItem(item);
             Destroy(gameObject);
             return;
         }
-        DialogueSystem.instance.Say("Je ne mets pas ma main la-dedans.", "Alice");
+        DialogueSystem.Instance.Say("Je ne mets pas ma main la-dedans.", "Alice");
     }
 }

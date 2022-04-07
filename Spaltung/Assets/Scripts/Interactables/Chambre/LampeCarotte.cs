@@ -10,7 +10,7 @@ public class LampeCarotte : MonoBehaviour, Iinteractable
     public void Interact(Player player)
     {
         player.AddItem(item);
-        DialogueSystem.instance.Say("Une jolie lampe en forme de carotte.", "Alice");
+        DialogueSystem.Instance.Say("Une jolie lampe en forme de carotte.", "Alice");
         Destroy(gameObject);
     }
 

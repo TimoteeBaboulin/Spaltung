@@ -14,6 +14,7 @@
           <e p="Interactables" t="Include">
             <e p="Buanderie" t="Include">
               <e p="Algue.cs" t="Include" />
+              <e p="Bunny.cs" t="Include" />
               <e p="Corde.cs" t="Include" />
               <e p="Panier.cs" t="Include" />
               <e p="Piege.cs" t="Include" />
@@ -61,11 +62,13 @@
             </e>
             <e p="Salon" t="Include">
               <e p="CadenasUI.cs" t="Include" />
+              <e p="Clock.cs" t="Include" />
               <e p="DigitUI.cs" t="Include" />
               <e p="Livre.cs" t="Include" />
               <e p="SalonDoor.cs" t="Include" />
               <e p="Sortie.cs" t="Include" />
               <e p="Tele.cs" t="Include" />
+              <e p="Telecommande.cs" t="Include" />
               <e p="Timer.cs" t="Include" />
             </e>
             <e p="Tests" t="Include">
@@ -85,6 +88,9 @@
             <e p="ButtonFunctions.cs" t="Include" />
           </e>
           <e p="Player.cs" t="Include" />
+          <e p="ReturnToMainMenu.cs" t="Include" />
+          <e p="ReveilAlice.cs" t="Include" />
+          <e p="Singleton.cs" t="Include" />
         </e>
       </e>
       <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
