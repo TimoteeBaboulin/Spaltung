@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bunny : MonoBehaviour, Iinteractable
+public class Cerfs : MonoBehaviour, Iinteractable
 {
     public Vector3 position { get; set; }
 
@@ -14,6 +14,6 @@ public class Bunny : MonoBehaviour, Iinteractable
 
     public void Interact(Player player)
     {
-        DialogueSystem.Instance.Say("Salut, petit lapin, tu voudrais bien me passer cette clef ?", "Aldjia");
+        DialogueSystem.Instance.Say("Vite, l'Ours s'est réveillé et il arrive! \nLa porte est cadenassée, il faut trouver un code !", "Cerfs");
     }
 }

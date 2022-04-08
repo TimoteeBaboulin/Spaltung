@@ -62,6 +62,7 @@
             </e>
             <e p="Salon" t="Include">
               <e p="CadenasUI.cs" t="Include" />
+              <e p="Cerfs.cs" t="Include" />
               <e p="Clock.cs" t="Include" />
               <e p="DigitUI.cs" t="Include" />
               <e p="Livre.cs" t="Include" />

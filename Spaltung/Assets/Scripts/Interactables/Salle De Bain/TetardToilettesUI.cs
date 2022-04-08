@@ -14,6 +14,6 @@ public class TetardToilettesUI : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        DialogueSystem.Instance.Say("Je ne mets pas ma main la-dedans.", "Alice");
+        DialogueSystem.Instance.Say("Je ne mets pas ma main là-dedans.", "Aldjia");
     }
 }

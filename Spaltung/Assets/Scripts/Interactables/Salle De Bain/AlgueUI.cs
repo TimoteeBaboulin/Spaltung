@@ -17,7 +17,7 @@ public class AlgueUI : MonoBehaviour
             TetardBaignoireUI tetard = GetComponentInChildren<TetardBaignoireUI>();
             tetard.FaceAlgue();
             tetard.AlgueSet();
-            DialogueSystem.Instance.Say("L'algue semble calmer le tetard.");
+            DialogueSystem.Instance.Say("L'algue semble calmer le tetard.", "Aldjia");
         }
     }
 }

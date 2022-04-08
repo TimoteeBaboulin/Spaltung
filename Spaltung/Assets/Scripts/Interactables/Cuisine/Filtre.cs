@@ -16,7 +16,7 @@ public class Filtre : MonoBehaviour, Iinteractable
     public void Interact(Player player)
     {
         player.AddItem(item);
-        DialogueSystem.Instance.Say("Un filtre pour le café.", "Alice");
+        DialogueSystem.Instance.Say("Un filtre pour le café, il pourrait me servir à attraper quelque chose.", "Aldjia");
         Destroy(gameObject);
     }
 }

@@ -24,6 +24,6 @@ public class FruitsUI : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        DialogueSystem.Instance.Say("Je devrais prendre les fruits du dessus en premier.", "Alice");
+        DialogueSystem.Instance.Say("Je devrais prendre les fruits du dessus en premier.", "Aldjia");
     }
 }

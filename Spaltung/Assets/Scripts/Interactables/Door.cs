@@ -29,10 +29,10 @@ public class Door : MonoBehaviour, Iinteractable
                     DialogueSystem.Instance.Say("Porte dévérouillée.", "Porte");
                     _isOpen = true;
                 } else {
-                    DialogueSystem.Instance.Say("Il me faut encore " + keyCount + " clefs.", "Alice");
+                    DialogueSystem.Instance.Say("Il me faut encore " + keyCount + " clefs.", "Aldjia");
                 }
             } else {
-                DialogueSystem.Instance.Say(lockedText, "Alice");
+                DialogueSystem.Instance.Say(lockedText, "Aldjia");
             }
 
             return;

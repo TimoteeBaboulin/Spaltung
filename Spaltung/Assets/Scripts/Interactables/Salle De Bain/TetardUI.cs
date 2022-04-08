@@ -22,10 +22,10 @@ public class TetardUI : MonoBehaviour
     {
         if (cup) {
             Player.Instance.AddItem(item);
-            DialogueSystem.Instance.Say("Je vais te ramener a ta maman.", "Alice");
+            DialogueSystem.Instance.Say("Je vais te ramener à ta maman.", "Aldjia");
             Destroy(gameObject);
         } else {
-            DialogueSystem.Instance.Say("Le tetard va trop vite.", "Alice");
+            DialogueSystem.Instance.Say("Le tétard va trop vite.", "Aldjia");
         }
     }
     

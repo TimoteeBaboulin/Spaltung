@@ -23,7 +23,7 @@ public class Timer : MonoBehaviour
 
     public void OnEnable()
     {
-        DialogueSystem.Instance.Say("Vite, l'Ours s'est réveillé et il arrive! \nLa porte est cadenassée, il faut trouver un code!");
+        DialogueSystem.Instance.Say("Vite, l'Ours s'est réveillé et il arrive! \nLa porte est cadenassée, il faut trouver un code !", "Cerf");
         timer = TimerTime;
         audioSource.clip = salonOST;
         audioSource.loop = true;

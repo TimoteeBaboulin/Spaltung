@@ -1,4 +1,4 @@
-using System;
+ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -26,17 +26,17 @@ public class Squirrel : MonoBehaviour, Iinteractable
             if (keyCount == 0) {
                 player.AddItem(itemGiven);
                 chambreManager.GetComponent<ChambreManager>().ecureuil = true;
-                DialogueSystem.Instance.Say("Tu me donnes une clef?", "Alice");
+                DialogueSystem.Instance.Say("Tu me donnes une clef ?", "Aldjia");
             }
             else
-                DialogueSystem.Instance.Say("Mange bien, c'est important.", "Alice");
+                DialogueSystem.Instance.Say("Mange bien, c'est important.", "Aldjia");
         }
         else {
             if (keyCount==0) {
-                DialogueSystem.Instance.Say("Merci pour la clef.", "Alice");
+                DialogueSystem.Instance.Say("Merci pour la clef.", "Aldjia");
             }
             else
-                DialogueSystem.Instance.Say("Il a l'air affamé, le pauvre...", "Alice");
+                DialogueSystem.Instance.Say("Il a l'air affamé, le pauvre...", "Aldjia");
         }
     }
     

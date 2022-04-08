@@ -53,13 +53,13 @@ public class Piege : MonoBehaviour, Iinteractable
                 }
                 sprites = newSpriteList;
             } else {
-                DialogueSystem.Instance.Say("Je devrais trouver comment attirer le lapin.", "Alice");
+                DialogueSystem.Instance.Say("Je devrais trouver comment attirer le lapin.", "Aldjia");
             }
         } else {
             if (alreadyTaken) {
-                DialogueSystem.Instance.Say("Désolé, pauvre lapinou.", "Alice");
+                DialogueSystem.Instance.Say("Désolé, pauvre lapinou.", "Aldjia");
             } else {
-              DialogueSystem.Instance.Say("Désolé, mais il me fallait cette clef.", "Alice");
+              DialogueSystem.Instance.Say("Désolé, mais il me fallait cette clef.", "Aldjia");
               player.AddItem(item);
               alreadyTaken = true;
             }

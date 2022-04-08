@@ -17,7 +17,7 @@ public class Telecommande : MonoBehaviour, Iinteractable
     public void Interact(Player player)
     {
         player.AddItem(item);
-        DialogueSystem.Instance.Say("Maman veut pas que je touche à la télécommande normalement.");
+        DialogueSystem.Instance.Say("Maman veut pas que je touche à la télécommande normalement.", "Aldjia");
         Destroy(gameObject);
     }
 }

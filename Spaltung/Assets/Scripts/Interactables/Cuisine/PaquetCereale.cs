@@ -31,25 +31,25 @@ public class PaquetCereale : MonoBehaviour, Iinteractable
                 if (player.TakeItem(key)) {
                     transform.position = new Vector3(transform.position.x, 0.1f, player.transform.position.z);
                     GetComponent<SpriteRenderer>().sprite = sprite;
-                    DialogueSystem.Instance.Say("J'ai pu faire tomber le paquet avec mon épée", "Alice");
+                    DialogueSystem.Instance.Say("J'ai pu faire tomber le paquet avec mon épée.", "Aldjia");
                     isOpen = true;
                 } else {
-                    DialogueSystem.Instance.Say("Meme avec la chaise ca reste trop haut.");
+                    DialogueSystem.Instance.Say("Même avec la chaise ça reste trop haut.", "Aldjia");
                 }
             }
             else {
                 DialogueSystem.Instance.Say(
-                    "Un paquet de mes céréales préférées... elles sont trop hautes pour moi.", "Alice");
+                    "Un paquet de mes céréales préférées... elles sont trop hautes pour moi.", "Aldjia");
             }
         }
         else {
             if (alreadyUsed) {
-                DialogueSystem.Instance.Say("J'ai tout renversé.", "Alice");
+                DialogueSystem.Instance.Say("J'ai tout renversé.", "Aldjia");
             }
             else {
                 player.AddItem(itemGiven);
                 alreadyUsed = true;
-                DialogueSystem.Instance.Say("??? \n Que fait un gland dans les céréales?", "Alice");
+                DialogueSystem.Instance.Say("Que fait un gland dans les céréales ?", "Aldjia");
             }
         }
     }

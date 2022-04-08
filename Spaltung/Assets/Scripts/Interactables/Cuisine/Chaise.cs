@@ -31,13 +31,13 @@ public class Chaise : MonoBehaviour, Iinteractable
     {
         if (!state) {
             state = true;
-            DialogueSystem.Instance.Say("Cette chaise est lourde a pousser.", "Alice");
-            transform.localPosition = new Vector3(2,0.1f, 1.4f);
+            DialogueSystem.Instance.Say("Cette chaise est lourde à pousser.", "Aldjia");
+            transform.localPosition = new Vector3(3.75f,0.1f, 1.4f);
             unlock.state = true;
             cereale.chaise = true;
             position = transform.position;
             return;
         }
-        DialogueSystem.Instance.Say("Maintenant je peut atteindre en hauteur.", "Alice");
+        DialogueSystem.Instance.Say("Maintenant, je peux atteindre en hauteur.", "Aldjia");
     }
 }

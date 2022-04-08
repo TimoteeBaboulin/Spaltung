@@ -18,12 +18,12 @@ public class PanierDeFruit : MonoBehaviour, Iinteractable
     public void Interact(Player player)
     {
         if (alreadyGiven) {
-            DialogueSystem.Instance.Say("Il n'y a plus rien qui m'intéresse.");
+            DialogueSystem.Instance.Say("Il n'y a plus rien qui m'intéresse.", "Aldjia");
             return;
         }
 
         alreadyGiven = true;
-        DialogueSystem.Instance.Say("Il y avait un gland sous les fruits.");
+        DialogueSystem.Instance.Say("Il y avait un gland sous les fruits.", "Aldjia");
         player.AddItem(item);
     }
 }

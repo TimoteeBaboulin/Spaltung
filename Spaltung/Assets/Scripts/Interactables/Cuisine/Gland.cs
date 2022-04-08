@@ -18,11 +18,11 @@ public class Gland : MonoBehaviour, Iinteractable
     public void Interact(Player player)
     {
         if (state) {
-            DialogueSystem.Instance.Say("La chaise était bancale, j'espère que ça passera", "Alice");
+            DialogueSystem.Instance.Say("La chaise était bancale, j'espère que ça passera", "Aldjia");
             player.AddItem(item);
             Destroy(gameObject);
         }
         else
-            DialogueSystem.Instance.Say("Il est trop haut pour moi.", "Alice");
+            DialogueSystem.Instance.Say("Le gland est trop haut pour moi.", "Aldjia");
     }
 }
